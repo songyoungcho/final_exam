@@ -28,15 +28,15 @@
                 console.log(data);
                 let result = document.querySelector("#result");     
                 let button = document.querySelector("#Btn")   
-                //result.innerHTML = "<h1>"+ data +"</h1>";
 
-                if(data!="fail"){  
+                if(data=="fail"){  
                     
-                    result.innerHTML = "<h1>"+ data +"</h1>";
+                    result.innerHTML = "<h1>error</h1>";
                 }
                 else{
                     
-                    result.innerHTML = "<h1>error</h1>";
+                   
+                    result.innerHTML = "<h1>"+ data +"</h1>";
                 }
             });
         }
